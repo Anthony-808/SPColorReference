@@ -8,8 +8,7 @@ Create a local web app that displays standardized color definitions.
 - Display color
 - Show RGB
 - Show HEX
-- Se
-arch by color name
+- Search by color name
 
 ## Future Ideas
 - Gradient slider bar
