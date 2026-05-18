@@ -1,4 +1,4 @@
-# Color Reference App
+# SPColorReference
 
 ## Goal
 Create a local web app that displays standardized color definitions.
