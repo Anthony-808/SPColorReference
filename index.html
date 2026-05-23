@@ -7,18 +7,16 @@
     <body>
         <h1>Color Reference App</h1>
         <!-- Search Bar-->
-        <div>
+        <div id="controls">
             <input id="colorInput" type="text" placeholder="Enter color name">
+            <div id="dropdown"></div>
+            <div id="display"></div>
+            <input id="hueSlider" type="range" min="0" max="360" value="0">
         </div>
-        <!-- Display area-->
-        <div id="display"></div>
-        <!-- Gradient Slider-->
-        <div>
-        </div>
-        <!-- Data Display-->
         <div id="colorInfo">
             RGB: <span id="rgbValue"></span><br>
-            HEX: <span id="hexValue"></span>
+            HEX: <span id="hexValue"></span><br>
+            HSL: <span id="hslValue"></span>
         </div>
         <script src="app.js"></script>
     </body>

@@ -6,9 +6,14 @@ body {
     gap: 10px;
 }
 
+#controls {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 #display {
-    width: 200px;
-    height: 200px;
+    height: 300px;
     background-color: gray;
 }
 
@@ -18,4 +23,9 @@ h1 {
 
 #colorInfo {
     margin-top: 15px;
+}
+
+#hueSlider {
+    appearance: none;
+    background: linear-gradient(to right, red, yellow, lime, cyan, blue, magenta, red);
 }
