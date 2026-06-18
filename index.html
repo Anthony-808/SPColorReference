@@ -6,18 +6,22 @@
     </head>
     <body>
         <h1>Color Reference App</h1>
-        <!-- Search Bar-->
-        <div id="controls">
-            <input id="colorInput" type="text" placeholder="Enter color name">
-            <div id="dropdown"></div>
-            <div id="display"></div>
-            <input id="hueSlider" type="range" min="0" max="360" value="0">
+        <div id="app">
+            <div id="controls">
+                <div id="searchContainer">
+                    <input id="colorInput" type="text" placeholder="Enter color name">
+                    <div id="dropdown"></div>
+                </div>
+                <div id="display"></div>
+                <div id="markerBar"></div>
+                <div id="markerDropdown"></div>
+            </div>
+            <div id="colorInfo">
+                RGB: <span id="rgbValue"></span><br>
+                HEX: <span id="hexValue"></span><br>
+                HSL: <span id="hslValue"></span>
+            </div>
         </div>
-        <div id="colorInfo">
-            RGB: <span id="rgbValue"></span><br>
-            HEX: <span id="hexValue"></span><br>
-            HSL: <span id="hslValue"></span>
-        </div>
-        <script src="app.js"></script>
+        <script type="module" src="app.js"></script>
     </body>
 </html>
